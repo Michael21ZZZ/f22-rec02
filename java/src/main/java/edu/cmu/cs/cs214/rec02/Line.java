@@ -12,10 +12,10 @@ public class Line {
     }
 
     void draw() {
-        int x1 = point1.computeX();
-        int y1 = point1.computeY();
-        int x2 = point2.computeX();
-        int y2 = point2.computeY();
+        int x1 = point1.getX();
+        int y1 = point1.getY();
+        int x2 = point2.getX();
+        int y2 = point2.getY();
         
         // assume implementation 
 
